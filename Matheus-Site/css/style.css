@@ -1,0 +1,78 @@
+body {
+    background-color: pink;
+    
+}
+
+#cabeçalho {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#logotipo {
+    width: 150px;
+    height: 150px;
+   
+        
+}
+
+#Menu {
+    color: pink;
+    background-color: black;
+    display: flex;
+    flex-direction: row; 
+    padding: 25px; 
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;    
+    
+}
+
+.estilo {
+    cursor: pointer;
+    text-decoration: none;
+    color: pink;
+
+}
+.estilo:hover {
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 7px white;
+    text-decoration: none;
+}
+
+#sessao {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0px;
+    align-items: center;
+}
+
+#rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 50px;
+    
+}
+
+#suport {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#modopagar {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#tamanho {
+    font-size: 35px;
+}
